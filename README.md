@@ -1,62 +1,58 @@
+Análise Estatística do Tempo de Sono com Python
+Sobre o projeto
 
-# Mentor de Carreiras com Inteligência Artificial
+Este projeto foi desenvolvido durante as aulas de Ciência de Dados, com o objetivo de explorar conceitos de estatística e programação utilizando Python.
 
-## Sobre o projeto
+A pesquisa tem como tema o tempo de sono dos estudantes em dias de semana. A partir dos dados coletados, são realizadas análises estatísticas e representações gráficas para compreender os hábitos de sono da amostra.
 
-O Mentor de Carreiras é um projeto desenvolvido em Python que utiliza Inteligência Artificial para ajudar pessoas a descobrir possíveis profissões de acordo com seus interesses, gostos e afinidades.
+Objetivos
+Coletar e organizar dados sobre o tempo de sono.
+Construir histogramas para visualizar a distribuição dos dados.
+Calcular média e mediana.
+Calcular o desvio padrão amostral.
+Interpretar os resultados por meio de gráficos e métricas estatísticas.
+Pergunta de pesquisa
 
-O sistema utiliza a API do OpenRouter para conectar-se a modelos de linguagem e gerar recomendações profissionais.
+Quantas horas você dorme, em média, em dias de semana?
 
-## Objetivos
+Hipótese
 
-- Desenvolver um chatbot com Inteligência Artificial.
-- Identificar interesses e afinidades dos usuários.
-- Recomendar profissões existentes no Brasil.
-- Personalizar respostas utilizando instruções (prompts).
-- Implementar regras de segurança (guardrails).
-- Monitorar o consumo de tokens.
+60% das pessoas da nossa amostra dormem mais de 6 horas por dia.
 
-## Tecnologias utilizadas
+Público-alvo
 
-- Python
-- OpenRouter API
-- Google Colab
-- Biblioteca OpenAI
+Estudantes da turma escolar.
 
-## Funcionalidades
+Tecnologias utilizadas
+Python
+Google Colab
+NumPy
+Matplotlib
+Etapas do projeto
+Definição do tema e da pergunta de pesquisa.
+Coleta dos dados por meio de entrevistas.
+Organização dos dados em listas Python.
+Criação de histogramas.
+Cálculo da média e mediana.
+Cálculo do desvio padrão.
+Análise e interpretação dos resultados.
+Resultados estatísticos
 
-1. Receber os interesses do usuário.
-2. Analisar as informações fornecidas.
-3. Sugerir profissões relacionadas.
-4. Evitar respostas preconceituosas.
-5. Monitorar tokens de entrada e saída.
-6. Utilizar chave de API protegida.
+O projeto utiliza as seguintes medidas:
 
-## Segurança
+Média: representa o tempo médio de sono.
+Mediana: representa o valor central dos dados ordenados.
+Desvio padrão: demonstra a dispersão dos valores em relação à média.
+Como executar
+Instale Python.
+Instale as bibliotecas necessárias:
+bash
+pip install numpy matplotlib
 
-A chave da API não deve ficar exposta no código.
+Execute o arquivo Criptografia.py:
+bash
+python Criptografia.py
 
-No Google Colab, utilizamos a funcionalidade Secrets para armazenar a chave com o nome OPEN_ROUTER.
+Autor
 
-## Como executar
-
-1. Instale a biblioteca:
-
-   pip install openai
-
-2. Configure sua chave de API no Google Colab.
-
-3. Execute o arquivo Python.
-
-4. Informe seus interesses profissionais.
-
-5. Receba sugestões de carreiras.
-
-## Estrutura do projeto
-
-- README.md: documentação do projeto.
-- criptografia.py: arquivo Python do projeto.
-
-## Conclusão
-
-O projeto demonstra como utilizar Inteligência Artificial para desenvolver um mentor de carreiras, aplicando conceitos de programação, APIs, segurança, prompts, guardrails e monitoramento de tokens.
+Projeto acadêmico desenvolvido para estudos de Ciência de Dados e Modelagem Preditiva com Python.
